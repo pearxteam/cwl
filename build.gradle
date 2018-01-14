@@ -4,7 +4,7 @@ plugins {
 
 group 'ru.pearx.cwl'
 version '1.1.0'
-description = "Customize your whitelist message & generate it!"
+description = "Customize your whitelist message & generate the whitelist!"
 
 apply plugin: 'java'
 

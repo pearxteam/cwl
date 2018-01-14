@@ -28,7 +28,7 @@ import java.util.Optional;
 /**
  * Created by me on 23.02.17.
  */
-@Plugin(id = "cwl", name = "Custom Whitelist", authors = "mrAppleXZ", description = "Customize your whitelist!", version = "1.0.0")
+@Plugin(id = "cwl", name = "Custom Whitelist", authors = "mrAppleXZ", description = "Customize your whitelist message & generate the whitelist!", version = "1.0.0")
 public class CWL
 {
     public static CWL INSTANCE;
