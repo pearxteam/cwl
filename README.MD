@@ -21,8 +21,8 @@ main {
 }
 ```
 
-The "whitelist" field is a custom message that will be shown to the not whitelisted player when he joins the server. See the `Custom Message` section.
+The `whitelist` field is a custom message that will be shown to the not whitelisted player when he joins the server. See the `Custom Message` section.
 
-The "db_connection" field is a JDBC connection string. The format is "jdbc:CONNECTOR://HOST/TABLE?user=USERNAME&password=PASSWORD". See the `Autogen` section.
+The `db_connection` field is a JDBC connection string. The format is `jdbc:CONNECTOR://HOST/TABLE?user=USERNAME&password=PASSWORD`. See the `Autogen` section.
 
-The "db_query" field is a SQL query string that will be used to get list of whitelisted users. Should return two columns: username and UUID. See the `Autogen` section.
+The `db_query` field is a SQL query string that will be used to get list of whitelisted users. Should return two columns: username and UUID. See the `Autogen` section.
