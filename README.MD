@@ -14,6 +14,9 @@ To generate it, execute a command "/cwl whitelist".
 
 CWL also can automatically sync the whitelist in background with the specified interval.
 
+# Reloading the plugin
+You can execute the "/cwl reload" command to reload the config and restart the autosync task.
+
 # Config file 
 ```
 main {
@@ -31,3 +34,5 @@ The `db_connection` field is a JDBC connection string. The format is `jdbc:CONNE
 The `db_query` field is a SQL query string that will be used to get list of whitelisted users. Should return two columns: username and UUID. See the `Autogen` section.
 
 The `sync_delay` field is an interval in seconds used to automatically sync the whitelist in background. Set to `0` to disable the autosyncing. See the `Autogen` section.
+
+You can reload the config in runtime, see the `Reloading the plugin` section.
